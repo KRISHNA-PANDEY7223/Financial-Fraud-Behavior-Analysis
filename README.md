@@ -1,4 +1,4 @@
-# 💳 Financial Fraud Detection – Exploratory Data Analysis (EDA)
+# 💳 Financial Fraud Detection | Python EDA, Fraud Analysis & Power BI Dashboard
 
 ## 📌 Project Overview
 
@@ -78,6 +78,53 @@ The dataset contains transaction-level information including user behavior, devi
 
 ---
 
+## 📊 Dashboard Pages
+
+### 1. Analysis by Payment Channel
+
+This page focuses on understanding transaction and fraud patterns across different payment methods.
+
+#### Insights
+- Total transactions by payment channel
+- Fraud rate comparison across channels
+- Transaction volume distribution
+- Channel-wise fraud contribution
+- Identification of high-risk payment methods
+
+#### Payment Channels Analyzed
+- ATM
+- Mobile App
+- Web Banking
+- POS Terminal
+
+---
+
+### 2. Analysis by Fraud Activity
+
+This page provides an overview of fraudulent behavior and key fraud indicators within the dataset.
+
+#### Insights
+- Device risk score analysis
+- Anomaly score trends
+- Suspicious IP activity analysis
+- International transaction behavior
+- Fraud patterns across behavioral indicators
+
+---
+
+### 3. Analysis by Login Attempts
+
+This page examines user authentication behavior and its relationship with fraudulent transactions.
+
+#### Insights
+- Login attempt distribution
+- Fraud occurrence by login attempts
+- Failed login activity analysis
+- Authentication risk patterns
+- Relationship between login activity and fraud incidents
+
+---
+
 ## 📈 Key Insights
 
 - Fraud transactions are distributed across all payment channels with slight variation (~11%–13%)
@@ -113,8 +160,7 @@ This analysis highlights the importance of:
 ## 📌 Future Improvements
 
 - Build a machine learning model for fraud prediction  
-- Handle class imbalance using SMOTE or undersampling  
-- Feature importance analysis using Random Forest / XGBoost  
+- Feature importance analysis using Random Forest  
 - Deploy dashboard using Streamlit or Power BI  
 - Real-time fraud detection system simulation  
 
