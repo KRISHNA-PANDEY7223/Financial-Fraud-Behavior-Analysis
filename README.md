@@ -153,7 +153,8 @@ This analysis highlights the importance of:
 - Pandas  
 - NumPy  
 - Matplotlib  
-- Seaborn  
+- Seaborn
+- Power BI
 
 ---
 
